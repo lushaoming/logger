@@ -1,0 +1,21 @@
+{
+    "name": "bryce/logger",
+    "description": "Logger for Laravel 5",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Bryce",
+            "email": "lushaoming6@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "php": ">=7.0.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Bryce\\Logger\\": "src/Bryce/Logger"
+        }
+    }
+}
